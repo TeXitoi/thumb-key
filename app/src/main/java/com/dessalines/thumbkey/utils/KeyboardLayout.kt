@@ -42,7 +42,11 @@ import com.dessalines.thumbkey.keyboards.KB_EN_EO_MESSAGEASE_SYMBOLS
 import com.dessalines.thumbkey.keyboards.KB_EN_EO_THUMBKEY
 import com.dessalines.thumbkey.keyboards.KB_EN_ES_CA_THUMBKEY
 import com.dessalines.thumbkey.keyboards.KB_EN_ES_CA_TWO_HANDS
+import com.dessalines.thumbkey.keyboards.KB_EN_FR_HYPER_SLIDE
 import com.dessalines.thumbkey.keyboards.KB_EN_FR_MESSAGEASE_SYMBOLS
+import com.dessalines.thumbkey.keyboards.KB_EN_FR_TWO_THUMB
+import com.dessalines.thumbkey.keyboards.KB_EN_FR_TWO_THUMB_NUKE
+import com.dessalines.thumbkey.keyboards.KB_EN_FR_TWO_THUMB_ROMDUD
 import com.dessalines.thumbkey.keyboards.KB_EN_HR_MESSAGEASE
 import com.dessalines.thumbkey.keyboards.KB_EN_HYPER
 import com.dessalines.thumbkey.keyboards.KB_EN_HYPER_SPACE
@@ -313,7 +317,11 @@ enum class KeyboardLayout(
         KB_BG_MESSAGEASE_PHONETIC_SYMBOLS,
     ), // bulgarian messagease phonetic symbols
     UKMessagEaseSymbols(KB_UK_MESSAGEASE_SYMBOLS), // українська messagease symbols
+    ENFRHyperSlide(KB_EN_FR_HYPER_SLIDE), // english french hyper slide
     ENFRMessagEaseSymbols(KB_EN_FR_MESSAGEASE_SYMBOLS), // english français messagease symbols
+    ENFRTwoThumb(KB_EN_FR_TWO_THUMB), // english french two thumb
+    ENFRTwoThumbNuke(KB_EN_FR_TWO_THUMB_NUKE), // english french two thumb Nuke variant
+    ENFRTwoThumbRomdud(KB_EN_FR_TWO_THUMB_ROMDUD), // english french two thumb Romdud variant
     HEMessagEaseSymbols(KB_HE_MESSAGEASE_SYMBOLS), // עברית messagease symbols
     ENNOMessagEaseSymbols(KB_EN_NO_MESSAGEASE_SYMBOLS), // english norsk messagease symbols
     SLMessagEaseSymbols(KB_SL_MESSAGEASE_SYMBOLS), // slovenščina messagease symbols
