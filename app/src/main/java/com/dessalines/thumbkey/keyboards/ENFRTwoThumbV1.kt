@@ -164,7 +164,7 @@ val KB_EN_FR_TWO_THUMB_MAIN =
                 ),
             ),
             listOf(
-                NUMERIC_KEY_ITEM_ALT,
+                NUMERIC_KEY_ITEM,
                 EMOJI_KEY_ITEM,
                 SPACEBAR_FRENCH_KEY_ITEM.copy(
                     widthMultiplier = 2,
@@ -341,7 +341,7 @@ val KB_EN_FR_TWO_THUMB_SHIFTED =
                 ),
             ),
             listOf(
-                NUMERIC_KEY_ITEM_ALT,
+                NUMERIC_KEY_ITEM,
                 EMOJI_KEY_ITEM,
                 SPACEBAR_FRENCH_KEY_ITEM.copy(
                     widthMultiplier = 2,
@@ -367,6 +367,191 @@ val KB_EN_FR_TWO_THUMB_SHIFTED =
         ),
     )
 
+val KB_EN_FR_TWO_THUMB_NUMERIC =
+    KeyboardC(
+        listOf(
+            listOf(
+                KeyItemC(
+                    center = KeyC("%", size = LARGE),
+                    swipeType = FOUR_WAY_CROSS,
+                    // right = KeyC("À"),
+                    // left = KeyC("Á"),
+                    // bottom = KeyC("Â"),
+                    // top = KeyC("Ä"),
+                ),
+                KeyItemC(
+                    center = KeyC("/", size = LARGE),
+                    swipeType = FOUR_WAY_CROSS,
+                    // right = KeyC("Ì"),
+                    // left = KeyC("Í"),
+                    bottom = KeyC("="),
+                    // top = KeyC("Ï"),
+                ),
+                KeyItemC(
+                    center = KeyC("7", size = LARGE),
+                    swipeType = FOUR_WAY_CROSS,
+                    // right = KeyC(" "),
+                    // left = KeyC("#"),
+                    // bottom = KeyC("Œ"),
+                    // top = KeyC(" "),
+                ),
+                KeyItemC(
+                    center = KeyC("8", size = LARGE),
+                    swipeType = FOUR_WAY_CROSS,
+                    // right = KeyC("Ñ"),
+                    // left = KeyC("~"),
+                    // bottom = KeyC("!"),
+                    // top = KeyC(" "),
+                ),
+                KeyItemC(
+                    center = KeyC("0", size = LARGE),
+                    swipeType = FOUR_WAY_CROSS,
+                    // right = KeyC("Z"),
+                    // left = KeyC("K"),
+                    // bottom = KeyC("_"),
+                    // top = KeyC(" "),
+                ),
+                KeyItemC(
+                    center = KeyC("*", size = LARGE),
+                    swipeType = FOUR_WAY_CROSS,
+                    // right = KeyC("\\"),
+                    // left = KeyC("/"),
+                    // bottom = KeyC("|"),
+                    // top = KeyC("&"),
+                ),
+            ),
+            listOf(
+                KeyItemC(
+                    center = KeyC("<", size = LARGE),
+                    swipeType = FOUR_WAY_CROSS,
+                    right = KeyC("{"),
+                    // left = KeyC(" "),
+                    bottom = KeyC("["),
+                    // top = KeyC("Æ"),
+                ),
+                KeyItemC(
+                    center = KeyC(">", size = LARGE),
+                    swipeType = FOUR_WAY_CROSS,
+                    // right = KeyC("È"),
+                    left = KeyC("}"),
+                    bottom = KeyC("]"),
+                    // top = KeyC("Ë"),
+                ),
+                KeyItemC(
+                    center = KeyC("4", size = LARGE),
+                    swipeType = FOUR_WAY_CROSS,
+                    // right = KeyC("Ò"),
+                    // left = KeyC("Ó"),
+                    // bottom = KeyC("Ô"),
+                    // top = KeyC("Ö"),
+                ),
+                KeyItemC(
+                    center = KeyC("5", size = LARGE),
+                    swipeType = FOUR_WAY_CROSS,
+                    // right = KeyC("\""),
+                    // left = KeyC("'"),
+                    // bottom = KeyC("`"),
+                    // top = KeyC("W"),
+                ),
+                KeyItemC(
+                    center = KeyC("6", size = LARGE),
+                    swipeType = FOUR_WAY_CROSS,
+                    // right = KeyC(" "),
+                    // left = KeyC("Y"),
+                    // bottom = KeyC(" "),
+                    // top = KeyC(" "),
+                ),
+                KeyItemC(
+                    center = KeyC("-", size = LARGE),
+                    swipeType = FOUR_WAY_CROSS,
+                    // right = KeyC(" "),
+                    // left = KeyC("G"),
+                    // bottom = KeyC(" "),
+                    // top = KeyC("Ÿ"),
+                ),
+            ),
+            listOf(
+                KeyItemC(
+                    center = KeyC("(", size = LARGE),
+                    swipeType = FOUR_WAY_CROSS,
+                    // right = KeyC("("),
+                    // left = KeyC(" "),
+                    // bottom = KeyC(";"),
+                    top = KeyC("^"),
+                ),
+                KeyItemC(
+                    center = KeyC(")", size = LARGE),
+                    swipeType = FOUR_WAY_CROSS,
+                    right = KeyC("€"),
+                    // left = KeyC(")"),
+                    // bottom = KeyC(","),
+                    top = KeyC("$"),
+                ),
+                KeyItemC(
+                    center = KeyC("1", size = LARGE),
+                    swipeType = FOUR_WAY_CROSS,
+                    // right = KeyC(":"),
+                    // left = KeyC("…"),
+                    // bottom = KeyC("."),
+                    // top = KeyC("·"),
+                ),
+                KeyItemC(
+                    center = KeyC("2", size = LARGE),
+                    swipeType = FOUR_WAY_CROSS,
+                    // right = KeyC("X"),
+                    // left = KeyC("Ç"),
+                    // bottom = KeyC("?"),
+                    // top = KeyC("V"),
+                ),
+                KeyItemC(
+                    center = KeyC("3", size = LARGE),
+                    swipeType = FOUR_WAY_CROSS,
+                    // right = KeyC("Ù"),
+                    // left = KeyC("Ú"),
+                    // bottom = KeyC("Û"),
+                    // top = KeyC("Ü"),
+                ),
+                KeyItemC(
+                    center = KeyC("+", size = LARGE),
+                    swipeType = FOUR_WAY_CROSS,
+                    // right = KeyC(" "),
+                    // left = KeyC("J"),
+                    // bottom = KeyC(" "),
+                    // top = KeyC(" "),
+                ),
+            ),
+            listOf(
+            ABC_KEY_ITEM,
+                KeyItemC(
+                    center = KeyC(",", size = LARGE),
+                    swipeType = FOUR_WAY_CROSS,
+                    // right = KeyC(" "),
+                    // left = KeyC("J"),
+                    // bottom = KeyC(" "),
+                    top = KeyC(";"),
+                ),
+                KeyItemC(
+                    center = KeyC("0", size = LARGE),
+                    swipeType = FOUR_WAY_CROSS,
+                    // right = KeyC(" "),
+                    // left = KeyC("J"),
+                    // bottom = KeyC(" "),
+                    // top = KeyC(" "),
+                ),
+                KeyItemC(
+                    center = KeyC(".", size = LARGE),
+                    swipeType = FOUR_WAY_CROSS,
+                    // right = KeyC(" "),
+                    // left = KeyC("J"),
+                    // bottom = KeyC(" "),
+                    top = KeyC(":"),
+                ),
+                BACKSPACE_KEY_ITEM,
+                RETURN_KEY_ITEM,
+            ),
+        ),
+    )
+
 val KB_EN_FR_TWO_THUMB: KeyboardDefinition =
     KeyboardDefinition(
         title = "english français two thumb",
@@ -374,6 +559,6 @@ val KB_EN_FR_TWO_THUMB: KeyboardDefinition =
             KeyboardDefinitionModes(
                 main = KB_EN_FR_TWO_THUMB_MAIN,
                 shifted = KB_EN_FR_TWO_THUMB_SHIFTED,
-                numeric = FRENCH_TYPESPLIT_NUMERIC_KEYBOARD,
+                numeric = KB_EN_FR_TWO_THUMB_NUMERIC,
             ),
     )
