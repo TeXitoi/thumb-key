@@ -15,12 +15,12 @@ val KB_EN_FR_TWO_THUMB_MAIN =
         listOf(
             listOf(
                 KeyItemC(
-                    center = KeyC("a", size = LARGE),
+                    center = KeyC("p", size = LARGE),
                     swipeType = FOUR_WAY_CROSS,
-                    right = KeyC("à"),
-                    left = KeyC("á"),
-                    bottom = KeyC("â"),
-                    top = KeyC("ä"),
+                    right = KeyC("q"),
+                    // left = KeyC(" "),
+                    bottom = KeyC("æ"),
+                    //top = KeyC("æ"),
                 ),
                 KeyItemC(
                     center = KeyC("i", size = LARGE),
@@ -65,12 +65,12 @@ val KB_EN_FR_TWO_THUMB_MAIN =
             ),
             listOf(
                 KeyItemC(
-                    center = KeyC("p", size = LARGE),
+                    center = KeyC("a", size = LARGE),
                     swipeType = FOUR_WAY_CROSS,
-                    right = KeyC("@"),
-                    // left = KeyC(" "),
-                    bottom = KeyC("q"),
-                    top = KeyC("æ"),
+                    right = KeyC("à"),
+                    left = KeyC("á"),
+                    bottom = KeyC("â"),
+                    top = KeyC("ä"),
                 ),
                 KeyItemC(
                     center = KeyC("e", size = LARGE),
@@ -120,7 +120,7 @@ val KB_EN_FR_TWO_THUMB_MAIN =
                     right = KeyC("("),
                     // left = KeyC(" "),
                     // bottom = KeyC(";"),
-                    // top = KeyC(" "),
+                    top = KeyC("@"),
                 ),
                 KeyItemC(
                     center = KeyC("v", size = LARGE),
@@ -192,12 +192,12 @@ val KB_EN_FR_TWO_THUMB_SHIFTED =
         listOf(
             listOf(
                 KeyItemC(
-                    center = KeyC("A", size = LARGE),
+                    center = KeyC("P", size = LARGE),
                     swipeType = FOUR_WAY_CROSS,
-                    right = KeyC("À"),
-                    left = KeyC("Á"),
-                    bottom = KeyC("Â"),
-                    top = KeyC("Ä"),
+                    right = KeyC("Q"),
+                    // left = KeyC(" "),
+                    bottom = KeyC("Æ"),
+                    //top = KeyC("æ"),
                 ),
                 KeyItemC(
                     center = KeyC("I", size = LARGE),
@@ -242,12 +242,12 @@ val KB_EN_FR_TWO_THUMB_SHIFTED =
             ),
             listOf(
                 KeyItemC(
-                    center = KeyC("P", size = LARGE),
+                    center = KeyC("A", size = LARGE),
                     swipeType = FOUR_WAY_CROSS,
-                    right = KeyC("@"),
-                    // left = KeyC(" "),
-                    bottom = KeyC("Q"),
-                    top = KeyC("Æ"),
+                    right = KeyC("À"),
+                    left = KeyC("Á"),
+                    bottom = KeyC("Â"),
+                    top = KeyC("Ä"),
                 ),
                 KeyItemC(
                     center = KeyC("E", size = LARGE),
@@ -297,7 +297,7 @@ val KB_EN_FR_TWO_THUMB_SHIFTED =
                     right = KeyC("("),
                     // left = KeyC(" "),
                     // bottom = KeyC(";"),
-                    // top = KeyC(" "),
+                    top = KeyC("@"),
                 ),
                 KeyItemC(
                     center = KeyC("V", size = LARGE),
