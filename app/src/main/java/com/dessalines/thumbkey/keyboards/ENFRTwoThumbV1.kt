@@ -164,7 +164,7 @@ val KB_EN_FR_TWO_THUMB_MAIN =
                 ),
             ),
             listOf(
-                BACKSPACE_KEY_ITEM,
+                NUMERIC_KEY_ITEM_ALT,
                 EMOJI_KEY_ITEM,
                 SPACEBAR_FRENCH_KEY_ITEM.copy(
                     widthMultiplier = 2,
@@ -181,7 +181,7 @@ val KB_EN_FR_TWO_THUMB_MAIN =
                             swipeReturnAction = ToggleCurrentWordCapitalization(false),
                         ),
                 ),
-                NUMERIC_KEY_ITEM_ALT,
+                BACKSPACE_KEY_ITEM,
                 RETURN_KEY_ITEM,
             ),
         ),
@@ -341,7 +341,7 @@ val KB_EN_FR_TWO_THUMB_SHIFTED =
                 ),
             ),
             listOf(
-                BACKSPACE_KEY_ITEM,
+                NUMERIC_KEY_ITEM_ALT,
                 EMOJI_KEY_ITEM,
                 SPACEBAR_FRENCH_KEY_ITEM.copy(
                     widthMultiplier = 2,
@@ -361,7 +361,7 @@ val KB_EN_FR_TWO_THUMB_SHIFTED =
                             color = MUTED,
                         ),
                 ),
-                NUMERIC_KEY_ITEM_ALT,
+                BACKSPACE_KEY_ITEM,
                 RETURN_KEY_ITEM,
             ),
         ),
