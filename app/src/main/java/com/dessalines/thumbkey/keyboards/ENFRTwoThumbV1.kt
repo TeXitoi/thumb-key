@@ -110,7 +110,7 @@ val KB_EN_FR_TWO_THUMB_MAIN =
                     // right = KeyC(" "),
                     left = KeyC("g"),
                     // bottom = KeyC(" "),
-                    // top = KeyC(" "),
+                    top = KeyC("µ"),
                 ),
             ),
             listOf(
@@ -279,7 +279,7 @@ val KB_EN_FR_TWO_THUMB_SHIFTED =
                     // right = KeyC(" "),
                     left = KeyC("Y"),
                     // bottom = KeyC(" "),
-                    // top = KeyC(" "),
+                    top = KeyC("Ÿ"),
                 ),
                 KeyItemC(
                     center = KeyC("M", size = LARGE),
@@ -287,7 +287,7 @@ val KB_EN_FR_TWO_THUMB_SHIFTED =
                     // right = KeyC(" "),
                     left = KeyC("G"),
                     // bottom = KeyC(" "),
-                    top = KeyC("Ÿ"),
+                    top = KeyC("µ"),
                 ),
             ),
             listOf(
@@ -483,7 +483,7 @@ val KB_EN_FR_TWO_THUMB_NUMERIC =
                     center = KeyC(")", size = LARGE),
                     swipeType = FOUR_WAY_CROSS,
                     right = KeyC("€"),
-                    // left = KeyC(")"),
+                    left = KeyC("£"),
                     // bottom = KeyC(","),
                     top = KeyC("$"),
                 ),
@@ -533,10 +533,10 @@ val KB_EN_FR_TWO_THUMB_NUMERIC =
                 KeyItemC(
                     center = KeyC("0", size = LARGE),
                     swipeType = FOUR_WAY_CROSS,
-                    // right = KeyC(" "),
-                    // left = KeyC("J"),
+                    right = KeyC("\""),
+                    left = KeyC("°"),
                     // bottom = KeyC(" "),
-                    // top = KeyC(" "),
+                    top = KeyC("'"),
                 ),
                 KeyItemC(
                     center = KeyC(".", size = LARGE),
