@@ -110,12 +110,12 @@ val KB_EN_FR_TWO_THUMB_MAIN =
                     // right = KeyC(" "),
                     left = KeyC("g"),
                     // bottom = KeyC(" "),
-                    top = KeyC("µ"),
+                    top = KeyC("b"),
                 ),
             ),
             listOf(
                 KeyItemC(
-                    center = KeyC("b", size = LARGE),
+                    center = KeyC("’", size = LARGE),
                     swipeType = FOUR_WAY_CROSS,
                     right = KeyC("("),
                     // left = KeyC(" "),
@@ -287,12 +287,12 @@ val KB_EN_FR_TWO_THUMB_SHIFTED =
                     // right = KeyC(" "),
                     left = KeyC("G"),
                     // bottom = KeyC(" "),
-                    top = KeyC("µ"),
+                    top = KeyC("B"),
                 ),
             ),
             listOf(
                 KeyItemC(
-                    center = KeyC("B", size = LARGE),
+                    center = KeyC("’", size = LARGE),
                     swipeType = FOUR_WAY_CROSS,
                     right = KeyC("("),
                     // left = KeyC(" "),
