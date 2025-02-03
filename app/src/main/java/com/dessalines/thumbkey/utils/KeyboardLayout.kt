@@ -35,6 +35,7 @@ import com.dessalines.thumbkey.keyboards.KB_EN_EO_THUMBKEY
 import com.dessalines.thumbkey.keyboards.KB_EN_ES_CA_THUMBKEY
 import com.dessalines.thumbkey.keyboards.KB_EN_FR_MESSAGEASE_SYMBOLS
 import com.dessalines.thumbkey.keyboards.KB_EN_FR_TWO_THUMB
+import com.dessalines.thumbkey.keyboards.KB_EN_FR_TWO_THUMB_NUKE
 import com.dessalines.thumbkey.keyboards.KB_EN_HR_MESSAGEASE
 import com.dessalines.thumbkey.keyboards.KB_EN_IT_THUMBKEY
 import com.dessalines.thumbkey.keyboards.KB_EN_LA_THUMBKEY
@@ -269,6 +270,7 @@ enum class KeyboardLayout(
     UKMessagEaseSymbols(KB_UK_MESSAGEASE_SYMBOLS),
     ENFRMessagEaseSymbols(KB_EN_FR_MESSAGEASE_SYMBOLS),
     ENFRTwoThumb(KB_EN_FR_TWO_THUMB),
+    ENFRTwoThumbNuke(KB_EN_FR_TWO_THUMB_NUKE),
     HEMessagEaseSymbols(KB_HE_MESSAGEASE_SYMBOLS),
     ENNOMessagEaseSymbols(KB_EN_NO_MESSAGEASE_SYMBOLS),
     SLMessagEaseSymbols(KB_SL_MESSAGEASE_SYMBOLS),
