@@ -89,6 +89,7 @@ val KB_EN_FR_TWO_THUMB_NUKE_MAIN =
                     top = KeyC("na"),
                     left = KeyC("no"),
                     right = KeyC("-"),
+                    bottom = KeyC("…"),
                 ),
                 KeyItemC(
                     center = KeyC("t", size = LARGE),
@@ -269,6 +270,7 @@ val KB_EN_FR_TWO_THUMB_NUKE_SHIFTED =
                     top = KeyC("Na"),
                     left = KeyC("No"),
                     right = KeyC("-"),
+                    bottom = KeyC("…"),
                 ),
                 KeyItemC(
                     center = KeyC("T", size = LARGE),
