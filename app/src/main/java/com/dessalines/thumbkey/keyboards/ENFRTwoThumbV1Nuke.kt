@@ -68,8 +68,9 @@ val KB_EN_FR_TWO_THUMB_NUKE_MAIN =
                 KeyItemC(
                     center = KeyC("f", size = LARGE),
                     swipeType = FOUR_WAY_CROSS,
-                    top = KeyC("y"),
                     right = KeyC("fo"),
+                    top = KeyC("y"),
+                    topRight = KeyC("Ÿ"),
                 ),
                 KeyItemC(
                     center = KeyC("o", size = LARGE),
@@ -249,8 +250,9 @@ val KB_EN_FR_TWO_THUMB_NUKE_SHIFTED =
                 KeyItemC(
                     center = KeyC("F", size = LARGE),
                     swipeType = FOUR_WAY_CROSS,
-                    top = KeyC("Y"),
                     right = KeyC("Fo"),
+                    top = KeyC("Y"),
+                    topRight = KeyC("Ÿ"),
                 ),
                 KeyItemC(
                     center = KeyC("O", size = LARGE),
