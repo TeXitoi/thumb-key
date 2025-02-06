@@ -471,6 +471,7 @@ val KB_EN_FR_TWO_THUMB_NUMERIC =
                     right = KeyC("!"),
                     left = KeyC("?"),
                     top = KeyC(":"),
+                    bottom = KeyC("·"),
                 ),
                 KeyItemC(
                     center = KeyC("0", size = LARGE),
