@@ -432,13 +432,15 @@ val KB_EN_FR_TWO_THUMB_NUMERIC =
                 KeyItemC(
                     center = KeyC("(", size = LARGE),
                     swipeType = FOUR_WAY_CROSS,
+                    right = KeyC("«"),
                     top = KeyC("^"),
                 ),
                 KeyItemC(
                     center = KeyC(")", size = LARGE),
                     swipeType = FOUR_WAY_CROSS,
+                    left = KeyC("»"),                    
                     right = KeyC("€"),
-                    left = KeyC("£"),
+                    bottom = KeyC("£"),
                     top = KeyC("$"),
                 ),
                 KeyItemC(
