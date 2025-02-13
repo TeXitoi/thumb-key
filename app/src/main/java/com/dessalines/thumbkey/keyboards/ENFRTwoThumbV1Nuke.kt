@@ -54,6 +54,7 @@ val KB_EN_FR_TWO_THUMB_NUKE_MAIN =
                     left = KeyC("si"),
                     right = KeyC("sc"),
                     bottom = KeyC("se"),
+                    top = KeyC("ŝ"),
                 ),
                 KeyItemC(
                     center = KeyC("c", size = LARGE),
@@ -62,6 +63,7 @@ val KB_EN_FR_TWO_THUMB_NUKE_MAIN =
                     left = KeyC("ç"),
                     bottom = KeyC("x"),
                     bottomLeft = KeyC("ée"),
+                    right = KeyC("ĉ"),
                 ),
             ),
             listOf(
@@ -137,6 +139,7 @@ val KB_EN_FR_TWO_THUMB_NUKE_MAIN =
                     bottomLeft = KeyC("ú"),
                     bottomRight = KeyC("ù"),
                     bottom = KeyC("!"),
+                    right = KeyC("ŭ"),
                 ),
                 KeyItemC(
                     center = KeyC("h", size = LARGE),
@@ -166,6 +169,7 @@ val KB_EN_FR_TWO_THUMB_NUKE_MAIN =
                     swipeType = FOUR_WAY_CROSS,
                     left = KeyC("gr"),
                     bottom = KeyC("’"),
+                    top = KeyC("ĝ"),
                 ),
             ),
             listOf(
@@ -236,6 +240,7 @@ val KB_EN_FR_TWO_THUMB_NUKE_SHIFTED =
                     left = KeyC("Si"),
                     right = KeyC("Sc"),
                     bottom = KeyC("Se"),
+                    top = KeyC("Ŝ"),
                 ),
                 KeyItemC(
                     center = KeyC("C", size = LARGE),
@@ -244,6 +249,7 @@ val KB_EN_FR_TWO_THUMB_NUKE_SHIFTED =
                     left = KeyC("Ç"),
                     bottom = KeyC("X"),
                     bottomLeft = KeyC("Ée"),
+                    right = KeyC("Ĉ"),
                 ),
             ),
             listOf(
@@ -319,6 +325,7 @@ val KB_EN_FR_TWO_THUMB_NUKE_SHIFTED =
                     bottomLeft = KeyC("Ú"),
                     bottomRight = KeyC("Ù"),
                     bottom = KeyC("!"),
+                    right = KeyC("Ŭ"),
                 ),
                 KeyItemC(
                     center = KeyC("H", size = LARGE),
@@ -348,6 +355,7 @@ val KB_EN_FR_TWO_THUMB_NUKE_SHIFTED =
                     swipeType = FOUR_WAY_CROSS,
                     left = KeyC("Gr"),
                     bottom = KeyC("’"),
+                    top = KeyC("Ĝ"),
                 ),
             ),
             listOf(
