@@ -95,10 +95,12 @@ val KB_EN_FR_TWO_THUMB_MAIN =
                 ),
                 KeyItemC(
                     center = KeyC("h", size = LARGE),
-                    swipeType = FOUR_WAY_CROSS,
+                    swipeType = EIGHT_WAY,
                     top = KeyC("’"),
                     right = KeyC("ht"),
                     bottom = KeyC("j"),
+                    topLeft = KeyC("ĥ"),
+                    bottomLeft = KeyC("ĵ"),
                     left = KeyC("_"),
                 ),
                 KeyItemC(
@@ -281,10 +283,12 @@ val KB_EN_FR_TWO_THUMB_SHIFTED =
                 ),
                 KeyItemC(
                     center = KeyC("H", size = LARGE),
-                    swipeType = FOUR_WAY_CROSS,
+                    swipeType = EIGHT_WAY,
                     top = KeyC("’"),
                     right = KeyC("Ht"),
                     bottom = KeyC("J"),
+                    topLeft = KeyC("Ĥ"),
+                    bottomLeft = KeyC("Ĵ"),
                     left = KeyC("_"),
                 ),
                 KeyItemC(
