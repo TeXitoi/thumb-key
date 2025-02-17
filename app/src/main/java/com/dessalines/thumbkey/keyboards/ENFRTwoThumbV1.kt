@@ -456,7 +456,7 @@ val KB_EN_FR_TWO_THUMB_NUMERIC =
                 KeyItemC(
                     center = KeyC(")", size = LARGE),
                     swipeType = FOUR_WAY_CROSS,
-                    left = KeyC("»"),                    
+                    left = KeyC("»"),
                     right = KeyC("€"),
                     bottom = KeyC("£"),
                     top = KeyC("$"),
